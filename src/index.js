@@ -8,63 +8,17 @@ import listPlugin from "@fullcalendar/list";
 // const object = obj ? JSON.parse(obj) : {};
 const events = [
   {
-    events: [
-      {
-        id: "1",
-        resourceId: "A",
-        title: "DO THIS ONE",
-        start: "2022-02-19T12:00:00",
-        end: "2022-01-19T13:00:00",
-      },
-      {
-        resourceId: "B",
-        title: "event 2",
-        start: "2022-02-09T12:00:00",
-        end: "2022-02-09T13:00:00",
-      },
-    ],
-    color: "green",
+    id: "1",
+    resourceId: "A",
+    title: "DO THIS ONE",
+    start: "2022-02-19T12:00:00",
+    end: "2022-02-19T13:00:00",
   },
   {
-    color: "red",
-    events: [
-      {
-        resourceId: "C",
-        start: "2022-02-17",
-        end: "2022-02-18",
-        display: "background",
-        allDay: true,
-      },
-      {
-        resourceId: "E",
-        start: "2022-02-18T10:00:00",
-        end: "2022-02-18T13:00:00",
-        display: "background",
-        allDay: false,
-      },
-    ],
-  },
-];
-const resources = [
-  {
-    id: "A",
-    title: "Benny",
-  },
-  {
-    id: "C",
-    title: "Cora",
-  },
-  {
-    id: "B",
-    title: "Eleanor",
-  },
-  {
-    id: "D",
-    title: "Zelda",
-  },
-  {
-    id: "E",
-    title: "Quinston",
+    resourceId: "B",
+    title: "event 2",
+    start: "2022-02-09T12:00:00",
+    end: "2022-02-09T13:00:00",
   },
 ];
 
