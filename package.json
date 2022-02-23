@@ -16,5 +16,11 @@
   "devDependencies": {
     "open": "^8.2.1",
     "parcel": "^2.2.0"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^5.10.1",
+    "@fullcalendar/daygrid": "^5.10.1",
+    "@fullcalendar/list": "^5.10.1",
+    "@fullcalendar/timegrid": "^5.10.1"
   }
 }
