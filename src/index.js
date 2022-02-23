@@ -26,8 +26,13 @@ let calendar = new Calendar(calendarEl, {
   plugins: [dayGridPlugin, timeGridPlugin, listPlugin],
   initialView: "dayGridMonth",
   events: events,
+  editable: true,
+  droppable: true,  
   eventClick: function (info) {
     console.log(info.event.title);
+  },
+  eventDrop: function (info) {
+    alert("Dropped");
   },
   headerToolbar: {
     left: "prev,next today",
